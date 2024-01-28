@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Teko:wght@500&family=Yatra+One&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+.container {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  padding: 20px;
+  margin: 0 3px;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  box-shadow: 4px 6px #c38f28;
+}
+#btn{
+  background-color: lawngreen;
+}
+#btn-2{
+  background-color: violet;
+   
+}
+#btn-3{
+  background-color: green;
+    
+
+}
+#btn-4{
+  background-color: yellow;
+   
+
+}
+#btn-5{
+  background-color:#328b8b;
+    
+
+}
+
+.row {
+  margin: 8px 0;
+
+}
+
+
+.row input {
+  margin: 0;
+  padding: 7px 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-family: Teko;
+  font-size: 20px;
+  cursor: pointer;
+  
+
+
+}
+#logo{
+  
+}
+
+
