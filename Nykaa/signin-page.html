@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Page</title>
+    <link rel="stylesheet" href="signin-page.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="nykaa-1200x600-1.jpg" alt="Nykaa">
+        </div>
+        <h1>Register</h1>
+        <div class="signIn">
+            <a href="login.html">LOGIN </a>
+        </div>
+        <marquee width:100px direction="left">REGISTER HERE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; REGISTER HERE &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;REGISTER HERE</marquee>
+        <div class="box">
+            <form action="formsubmit.php" method="post">
+                <label for="fname" id="fname"> FIRST NAME</label>
+                <input type="text" name="fname" id="fname" placeholder=" Enter Your First Name">
+                <label for="lname" id="lname">LAST NAME</label>
+                <input type="text" name="lname" id="lname" placeholder=" Enter Your Last Name"><br>
+                <label for="email" id="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+                <label for="contact" id="contact">CONTACT NUMBER</label>
+                <input type="number" name="contact" id="contact" placeholder="Enter Your Contact Number"><br>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Other</label><br>
+                <label for="dob" id="dob"> DATE OF BIRTH</label>
+                <input type="date" name="date" id="date"><br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <div class="bottom">
+        <img src="bottom.jpg" alt="bottom details">
+    </div>
+</body>
+
+</html>

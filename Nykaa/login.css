@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    height: 70%;
+    width: 100%;
+}
+
+.logo img {
+    width: 110px;
+    margin: 5px 10px;
+    position: absolute;
+    top: 5px;
+}
+.header marquee {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 180, 140);
+}
+
+.header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    background-image: linear-gradient(rgb(209, 58, 156), rgb(245, 180, 140));
+    text-align: center;
+
+}
+
+.signup {
+    position: relative;
+    left: 95%;
+    top: -22px;
+}
+
+.container {
+
+    background: url(back\ g\ makeup.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: cursive;
+    left: 220px;
+
+}
+
+#f-pass {
+    position: relative;
+    font-size: 10px;
+    top: -24px;
+    left: 93px;
+
+}
+.bottom img{
+    margin-top: 6px;
+    width: 100%;
+}
